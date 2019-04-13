@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace');
+body{
+  width: 400px;
+  font-family: 'Covered By Your Grace', cursive;
+  height: 275px;
+  background-color: #cc5500;
+  color: white;
+}
+.title{
+  padding: 70px;
+  padding-left: 80px;
+  padding-bottom: 0px;
+  font-size: 35px;
+}
+.text {
+  text-align: center;
+}
+.textbox {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#textbox2 {
+  padding-bottom: 0px;
+  margin-left: 65px;
+}
+.dropdown{
+  font-size: 35px;
+  padding-left: 90px;
+  padding-top: 0px;
+}
+.button {
+  font-family: 'Covered By Your Grace', cursive;
+  background: #e5e4d7;
+  border: 1px solid;
+  border-radius: 3px;
+  height: 30px;
+  line-height: 28px;
+  padding: 0 20px;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
