@@ -3,12 +3,16 @@
   "version": "1.7",
   "manifest_version": 2,
   "description": "An easier, effective and more efficient way to search for ratings of professors at the University of Texas at Austin.",
+  "content_scripts": [{
+    "js": ["ratings.js"],
+    "matches": ["https://utdirect.utexas.edu/apps/registrar/course_schedule/*"]
+  }],
   "browser_action": {
     "default_title": "Rate My Longhorn",
     "default_icon": "longhorn.png",
     "default_popup": "popup.html"
   }, 
   "permissions": [
-    "storage", "<all_urls>", "notifications"
+    "storage", "<all_urls>", "notifications", "https://search-production.ratemyprofessors.com/", "https://utdirect.utexas.edu/"
   ]
 }
